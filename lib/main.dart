@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:laceup/homepage.dart';
+import 'package:laceup/playground.dart';
 import 'package:laceup/splash.dart';
 
 
@@ -15,7 +16,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Splash(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.white,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.white
+        )
+      ),
+      home: Homepage(),
     );
   }
 }
