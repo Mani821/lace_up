@@ -44,7 +44,7 @@ List<Shoe> mockShoes = [
     price: "\$65",
     brand: "Converse",
     type: "Casual",
-    color: "0xFFFF0000",
+    color: "0xFF9de8f5",
     description: "The iconic canvas sneaker that started it all and has remained virtually unchanged since its debut in 1957. Featuring a timeless high-top silhouette with durable canvas construction, metal eyelets, and the signature rubber toe cap. This versatile shoe pairs perfectly with any outfit and represents decades of authentic street style and cultural significance across generations.",
   ),
   Shoe(

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:laceup/homepage.dart';
-import 'package:laceup/playground.dart';
 import 'package:laceup/splash.dart';
 
 
@@ -22,7 +20,7 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.white
         )
       ),
-      home: Homepage(),
+      home: Splash(),
     );
   }
 }
