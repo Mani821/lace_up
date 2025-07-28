@@ -213,11 +213,11 @@ class _ShoeDetailPageState extends State<ShoeDetailPage> {
                                         ],
                                       ),
                                     )
-                                    .animate(delay: 500.ms)
+                                    .animate(delay: 400.ms)
                                     .moveY(
                                       begin: 10,
                                       end: 0,
-                                      duration: 600.ms,
+                                      duration: 500.ms,
                                       curve: Curves.easeInOut,
                                     )
                                     .fade(),
@@ -230,11 +230,11 @@ class _ShoeDetailPageState extends State<ShoeDetailPage> {
                                   color: primaryColor,
                                 ),
                               )
-                              .animate(delay: 500.ms)
+                              .animate(delay: 400.ms)
                               .moveY(
                                 begin: 10,
                                 end: 0,
-                                duration: 600.ms,
+                                duration: 500.ms,
                                 curve: Curves.easeInOut,
                               )
                               .fade(),
@@ -249,11 +249,11 @@ class _ShoeDetailPageState extends State<ShoeDetailPage> {
                               color: primaryColor,
                             ),
                           )
-                          .animate(delay: 1000.ms)
+                          .animate(delay: 800.ms)
                           .moveY(
                             begin: 10,
                             end: 0,
-                            duration: 600.ms,
+                            duration: 500.ms,
                             curve: Curves.easeInOut,
                           )
                           .fade(),
@@ -322,11 +322,11 @@ class _ShoeDetailPageState extends State<ShoeDetailPage> {
                               ),
                             ],
                           )
-                          .animate(delay: 1600.ms)
+                          .animate(delay: 1400.ms)
                           .moveY(
                             begin: 10,
                             end: 0,
-                            duration: 600.ms,
+                            duration: 500.ms,
                             curve: Curves.easeInOut,
                           )
                           .fade(),
@@ -397,11 +397,11 @@ class _ShoeDetailPageState extends State<ShoeDetailPage> {
                         },
                       ),
                     )
-                    .animate(delay: 2200.ms)
+                    .animate(delay: 2000.ms)
                     .moveY(
                       begin: 10,
                       end: 0,
-                      duration: 600.ms,
+                        duration: 500.ms,
                       curve: Curves.easeInOut,
                     )
                     .fade(),
